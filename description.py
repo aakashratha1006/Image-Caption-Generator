@@ -87,4 +87,4 @@ clean_descriptions(descriptions)
 vocabulary = to_vocabulary(descriptions)
 print('Vocabulary Size: %d' % len(vocabulary))
 # save to file
-save_descriptions(descriptions, 'descriptions.txt')
+save_descriptions(descriptions, 'Cleaned-captions.txt')
